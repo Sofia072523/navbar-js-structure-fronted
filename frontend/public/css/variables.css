@@ -15,17 +15,31 @@
 
     /* Secundary color*/
 
-    --secundary-950:#FED638;
-    --secundary-900:#FED841;
-    --secundary-800:#FEDC55;
-    --secundary-700:#FEE069;
-    --secundary-600:#FEE47D;
-    --secundary-500:#FEE891;
-    --secundary-400:#FEECA5;
-    --secundary-300:#FEF0B9;
-    --secundary-200:#FEF4CD;
-    --secundary-100:#FEF8E1;
-    --secundary-50:#FEFCF5;
+    --secundary-950: #FED638;
+    --secundary-900: #FED841;
+    --secundary-800: #FEDC55;
+    --secundary-700: #FEE069;
+    --secundary-600: #FEE47D;
+    --secundary-500: #FEE891;
+    --secundary-400: #FEECA5;
+    --secundary-300: #FEF0B9;
+    --secundary-200: #FEF4CD;
+    --secundary-100: #FEF8E1;
+    --secundary-50: #FEFCF5;
+
+    /*terciary color*/
+    --terciary-950: #111c5a;
+    --terciary-900: #132b95;
+    --terciary-800: #0f2abe;
+    --terciary-700: #0a33eb;
+    --terciary-600: #2155ff;
+    --terciary-500: #286cff;
+    --terciary-400: #5095ff;
+    --terciary-300: #88bbff;
+    --terciary-200: #b9d4ff;
+    --terciary-100: #d7e6ff;
+    --terciary-50: #edf5ff;
+
 
     /* Basic color*/
     --white: #fff;
@@ -46,14 +60,24 @@
     --main-font: Helvetica, Arial, sans-serif;
 
     /* Font-size */
-    --fs-xxxxl: 8.0rem; /* Ultra grande */
-    --fs-xxxl: 6.4rem; /* Súper grande */
-    --fs-xxl: 4.8rem; /* Extra grande */
-    --fs-xl: 4.0rem;  /* Muy grande */
-    --fs-lg: 3.2rem;  /* Grande */
-    --fs-md: 2.4rem;  /* Mediano */
-    --fs-sm: 2.0rem;  /* Pequeño */
-    --fs-xs: 1.6rem;  /* Extra pequeño */
-    --fs-xxs: 1.4rem; /* Extra extra pequeño */
-    --fs-xxxs: 1.2rem; /* Mínimo */
+    --fs-xxxxl: 8.0rem;
+    /* Ultra grande */
+    --fs-xxxl: 6.4rem;
+    /* Súper grande */
+    --fs-xxl: 4.8rem;
+    /* Extra grande */
+    --fs-xl: 4.0rem;
+    /* Muy grande */
+    --fs-lg: 3.2rem;
+    /* Grande */
+    --fs-md: 2.4rem;
+    /* Mediano */
+    --fs-sm: 2.0rem;
+    /* Pequeño */
+    --fs-xs: 1.6rem;
+    /* Extra pequeño */
+    --fs-xxs: 1.4rem;
+    /* Extra extra pequeño */
+    --fs-xxxs: 1.2rem;
+    /* Mínimo */
 }
