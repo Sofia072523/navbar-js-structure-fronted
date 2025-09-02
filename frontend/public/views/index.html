@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,11 @@
     <!--<script src="/frontend/public/js/components/card.js" defer></script>-->
     <!-- Script para cargar todas las cards-->
     <script type="module">
-        import{loadCards} from "/frontend/public/js/components/card.js";
-        loadCards(".cards-container");// Clase para cargar todas las cards
+        import { loadCards } from "/frontend/public/js/components/card.js";
+        loadCards(".services__cards-container");// Clase para cargar todas las cards
     </script>
 </head>
+
 <body>
     <header class="header">
         <div class="navbar-container"></div>
@@ -25,9 +27,15 @@
         <div class="hero-container"></div>
     </section>
 
+    <main class="services">
+        <div class="services__cards-container"></div>
+        <form action="" class="services__form-container"></form>
+    </main>
+
     <section class="cards-container"></section>
 
     <h1>Estoy en inicio</h1>
 
 </body>
+
 </html>
